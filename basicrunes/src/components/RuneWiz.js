@@ -1,7 +1,7 @@
 import React from 'react';
 import Rune from './Rune';
 
-class App extends Component {
+class RuneWiz extends React.Component {
 state = {
     data: null
   };
@@ -57,6 +57,8 @@ state = {
         </div> */}
     </div>
   );
+  }
 }
+//}
 
 export default RuneWiz;
