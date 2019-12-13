@@ -1,5 +1,5 @@
 import React from 'react';
-import Rune from './Rune'
+import Rune from './Rune';
 
 function RuneWiz() {
   return (
@@ -18,7 +18,8 @@ function RuneWiz() {
           wpnEffect="Weaponeffect"
           armEffect="Armoureffect"
           chosen="true" 
-          imgUrl="{{require('./runeEl.gif')}}"
+          imgUrl="http://classic.battle.net/images/battle/diablo2exp/images/runes/runeEl.gif"
+          
           />
         </div>
 

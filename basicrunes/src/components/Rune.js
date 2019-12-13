@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Rune (props) {
+    
     return(
         <div classname="Rune">
             <p>{props.name}</p>
