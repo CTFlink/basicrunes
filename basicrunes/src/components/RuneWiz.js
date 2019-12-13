@@ -1,4 +1,5 @@
 import React from 'react';
+import Rune from './Rune'
 
 function RuneWiz() {
   return (
@@ -8,16 +9,24 @@ function RuneWiz() {
       </header>
 
         <div className="RuneSelection">
-        <header className="RuneSelection-header">
-        <h4>RuneSelection</h4>
-        </header>
+          <header className="RuneSelection-header">
+          <h4>RuneSelection</h4>
+          </header>
+          <Rune 
+          name="El"
+          lvlReq="11" 
+          wpnEffect="Weaponeffect"
+          armEffect="Armoureffect"
+          chosen="true" 
+          imgUrl="http://classic.battle.net/images/battle/diablo2exp/images/runes/runeEl.gif"
+          />
         </div>
 
-        <div className="RuneWords">
+        {/* <div className="RuneWords">
         <header className="RuneWords-header">
         <h4>RuneWords</h4>
         </header>
-        </div>
+        </div> */}
     </div>
   );
 }
