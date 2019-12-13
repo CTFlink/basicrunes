@@ -18,7 +18,7 @@ function RuneWiz() {
           wpnEffect="Weaponeffect"
           armEffect="Armoureffect"
           chosen="true" 
-          imgUrl="http://classic.battle.net/images/battle/diablo2exp/images/runes/runeEl.gif"
+          imgUrl="{{require('./runeEl.gif')}}"
           />
         </div>
 

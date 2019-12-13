@@ -8,7 +8,7 @@ function Rune (props) {
             <p>{props.wpnEffect}</p>
             <p>{props.armEffect}</p>
             <p>{props.chosen}</p>
-            <img src={props.imgUrl} />
+            <img src={props.imgUrl}/>
         </div>
     )
 }
