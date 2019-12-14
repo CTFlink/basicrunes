@@ -4,11 +4,12 @@ import data from '../data'
 
 function myfunction(){
     document.getElementById('hej').style.border= 'solid'
-    document.getElementById('hej').style.borderColor= 'lightblue'
+    document.getElementById('hej').style.borderColor= 'darkblue'
 }
 
 function showEffects(){
-    alert("geh")
+    document.getElementById('hej').style.border= 'solid'
+    document.getElementById('hej').style.borderColor= 'white'
 //denne linje skal ændre css stylen eller sådan noget lignende
 }
 
@@ -16,13 +17,13 @@ function Rune (props) {
     
     return(
         <div className="Rune" >
-        <img id="hej" src={props.runobject.imgUrl} alt={props.runobject.name} onClick={myfunction} title={props.runobject.name}/>
+        <img id="hej" src={props.runeobject.imgUrl} alt={props.runeobject.name} onMouseOver={myfunction} onMouseLeave={showEffects} title={props.runeobject.name}/>
 
-            <p>{props.runobject.name}</p>
-            <p>{props.runobject.lvlReq}</p>
-            <p>{props.runobject.wpnEffect}</p>
-            <p>{props.runobject.armEffect}</p>
-            <p>{props.runobject.chosen}</p>
+            <p>{props.runeobject.name}</p>
+            <p>{props.runeobject.lvlReq}</p>
+            <p>{props.runeobject.wpnEffect}</p>
+            <p>{props.runeobject.armEffect}</p>
+            <p>{props.runeobject.chosen}</p>
         </div>
     )
 }

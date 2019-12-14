@@ -38,7 +38,7 @@ state = {
           </header>
           <p className="App-intro">{this.state.data}</p>
           
-           <Rune runobject = {{
+           <Rune runeobject = {{
              name:"El", 
              lvlReq: "11", 
              wpnEffect:"WpnEffect", 
