@@ -49,12 +49,6 @@ state = {
           
           /> 
         </div>
-
-        {/* <div className="RuneWords">
-        <header className="RuneWords-header">
-        <h4>RuneWords</h4>
-        </header>
-        </div> */}
     </div>
   );
   }
