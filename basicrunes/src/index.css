@@ -9,11 +9,15 @@ body {
 
 
 
-img {
+#Rune {
   border: solid;
-  border-color: transparent;
+  border-color: black;
   margin: 0px;
   background-color: darkslategrey;
-  padding: 1px;
+  padding: 0px;
   border-radius: 15%;
+}
+
+#Rune:hover {
+  border-color: grey
 }
