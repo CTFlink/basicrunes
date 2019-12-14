@@ -9,7 +9,7 @@ function Rune (props) {
             <p>{props.runobject.wpnEffect}</p>
             <p>{props.runobject.armEffect}</p>
             <p>{props.runobject.chosen}</p>
-            <img src={props.runobject.imgUrl}/>
+            <img src={props.runobject.imgUrl} alt=""/>
         </div>
     )
 }
