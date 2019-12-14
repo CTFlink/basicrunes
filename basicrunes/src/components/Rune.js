@@ -1,6 +1,6 @@
 import React from 'react'
-import data from '../data'
-
+// import data from '../data'
+// import RuneWiz from './RuneWiz'
 
 function myfunction(){
     document.getElementById('hej').style.border= 'solid'
@@ -9,23 +9,26 @@ function myfunction(){
 
 function showEffects(){
     document.getElementById('hej').style.border= 'solid'
-    document.getElementById('hej').style.borderColor= 'white'
-//denne linje skal ændre css stylen eller sådan noget lignende
+    document.getElementById('hej').style.borderColor= 'grayscale'
 }
 
-function Rune (props) {
-    
-    return(
+class Rune extends React.Component{
+
+    render (){
+        return(
         <div className="Rune" >
-        <img id="hej" src={props.runeobject.imgUrl} alt={props.runeobject.name} onMouseOver={myfunction} onMouseLeave={showEffects} title={props.runeobject.name}/>
+        <img id={'hej'} src={this.props.runeobject.imgUrl} alt={this.props.runeobject.name} onMouseOver={myfunction} onMouseLeave={showEffects} title={this.props.runeobject.name}/>
 
-            <p>{props.runeobject.name}</p>
-            <p>{props.runeobject.lvlReq}</p>
-            <p>{props.runeobject.wpnEffect}</p>
-            <p>{props.runeobject.armEffect}</p>
-            <p>{props.runeobject.chosen}</p>
+            <p>{this.props.runeobject.name}</p>
+            <p>{this.props.runeobject.lvlReq}</p>
+            <p>{this.props.runeobject.wpnEffect}</p>
+            <p>{this.props.runeobject.armEffect}</p>
+            <p>{this.props.runeobject.chosen}</p>
         </div>
-    )
-}
+        )
+
+    }
+}   
+     
 
 export default Rune

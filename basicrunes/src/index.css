@@ -4,10 +4,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: grayscale;
 }
 
-img{
+
+
+img {
   border: solid;
   border-color: transparent;
   margin: 0px;
