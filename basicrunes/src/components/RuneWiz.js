@@ -38,7 +38,14 @@ state = {
           </header>
           <p className="App-intro">{this.state.data}</p>
           
-           <Rune runobject = {{name:"El", lvlReq: "11", wpnEffect:"WpnEffect", armEffect:"ArmourEffect", chosen:"true", imgUrl:"http://classic.battle.net/images/battle/diablo2exp/images/runes/runeEl.gif" }}
+           <Rune runobject = {{
+             name:"El", 
+             lvlReq: "11", 
+             wpnEffect:"WpnEffect", 
+             armEffect:"ArmourEffect", 
+             chosen:"true", 
+             imgUrl:"http://classic.battle.net/images/battle/diablo2exp/images/runes/runeEl.gif" 
+             }}
           
           // name="El"
           // lvlReq="11" 
