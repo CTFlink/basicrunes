@@ -1,5 +1,5 @@
 import React from 'react'
-// import data from '../data'
+import data from '../data'
 // import RuneWiz from './RuneWiz'
 
 // function myfunction(){
@@ -14,7 +14,12 @@ function showAlert(){
 
 class Rune extends React.Component{
 
+
+
     render (){
+        console.log(data.runeValues[0][2]);
+
+
         return(
         <div className="Rune" >
         <img id={'Rune'} src={this.props.runeobject.imgUrl} alt={this.props.runeobject.name} title={this.props.runeobject.name} onClick={showAlert}/>

@@ -24,8 +24,6 @@ state = {
   };
   render() {
 
-
-// function RuneWiz() {
   return (
     <div className="RuneWiz">
       <header className="RuneWiz-header">
@@ -46,13 +44,6 @@ state = {
              chosen:"true", 
              imgUrl:"http://classic.battle.net/images/battle/diablo2exp/images/runes/runeEl.gif" 
              }}
-          
-          // name="El"
-          // lvlReq="11" 
-          // wpnEffect="Weaponeffect"
-          // armEffect="Armoureffect"
-          // chosen="true" 
-          // imgUrl="http://classic.battle.net/images/battle/diablo2exp/images/runes/runeEl.gif"
           
           /> 
         </div>

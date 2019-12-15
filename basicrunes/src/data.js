@@ -34,4 +34,5 @@ const runeValues = [
   ['Zod', 69, 'Indestructible', 'Indestructible',0]
 ];
 
+
 module.exports = {runeValues}; 

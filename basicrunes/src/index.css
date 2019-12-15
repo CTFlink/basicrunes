@@ -7,17 +7,14 @@ body {
   background-color: grayscale;
 }
 
-
-
 #Rune {
   border: solid;
   border-color: black;
   margin: 0px;
-  background-color: darkslategrey;
   padding: 0px;
   border-radius: 15%;
 }
 
 #Rune:hover {
-  border-color: grey
+  border-color: darkslategrey
 }
